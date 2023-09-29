@@ -1,0 +1,92 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    line-height: 1.6;
+}
+
+header {
+    background-image: url('bg.avif'); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    color: #333333;
+    text-align: center;
+    padding: 1rem 0;
+    font-family: 'Playfair Display', serif;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+  
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333333;
+    font-size: 1,5rem;
+
+}
+
+
+section {
+    padding: 2rem;
+}
+
+section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #FF9B9B;
+}
+
+.profil {
+    display: flex;
+    align-items: center;
+}
+
+.profil img {
+    width: 200px;
+    height: 300px;
+    margin-right: 20px;
+}
+
+.teks-profil {
+    flex: 1;
+}
+
+.projek-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  
+}
+
+.projek-detail {
+    flex: 1;
+    margin-right: 20px; 
+}
+
+.projek-gambar img {
+    width: 700px; 
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
